@@ -543,6 +543,11 @@ video {
   padding-bottom: 100px;
   cursor: pointer;
 }
+@media (max-width: 1305px) {
+  .section_1__text {
+    padding-bottom: calc(200px + -100 * ((100vw - 320px) / 985));
+  }
+}
 .section_1__title {
   font-size: 35px;
   font-weight: 900;
